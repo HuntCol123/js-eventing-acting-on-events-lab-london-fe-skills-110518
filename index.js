@@ -40,14 +40,3 @@ dodger.style.left.replace('px', '')
     }
 }
 
-function moveDodgerTop() {
-  
-    var topNumbers =
-dodger.style.top.replace('px', '')
-    var top = parseInt(topNumbers, 10)
- 
-    if (top > 0) {
-      dodger.style.top = `${top - 1}px`
-    }
-}
-
