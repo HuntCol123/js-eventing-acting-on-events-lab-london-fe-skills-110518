@@ -44,9 +44,10 @@ function moveDodgerTop() {
   
     var topNumbers =
 dodger.style.top.replace('px', '')
-    var left = parseInt(topNumbers, 10)
+    var top = parseInt(topNumbers, 10)
  
-
-  
+    if (top > 0) {
+      dodger.style.top = `${left - 1}px`
+    }
 }
 
