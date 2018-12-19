@@ -36,3 +36,14 @@ dodger.style.left.replace('px', '')
       dodger.style.left = `${left + 1}px`
     }
 }
+
+function moveDodgerTop() {
+  
+    var leftNumbers =
+dodger.style.top.replace('px', '')
+    var left = parseInt(leftNumbers, 10)
+ 
+
+    }
+}
+
