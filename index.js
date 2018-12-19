@@ -47,7 +47,7 @@ dodger.style.top.replace('px', '')
     var top = parseInt(topNumbers, 10)
  
     if (top > 0) {
-      dodger.style.top = `${left - 1}px`
+      dodger.style.top = `${top - 1}px`
     }
 }
 
