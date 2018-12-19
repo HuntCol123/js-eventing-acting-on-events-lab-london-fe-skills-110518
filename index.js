@@ -8,7 +8,9 @@ document.addEventListener('keydown', function(e) {
       if (e.which === 39) { 
         moveDodgerRight()
       }
-      if (e.which === )
+      if (e.which === 38){
+        moveDodgerTop()
+      }
   }
 )
 
