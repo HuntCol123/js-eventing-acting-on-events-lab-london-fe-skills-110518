@@ -44,6 +44,6 @@ dodger.style.top.replace('px', '')
     var left = parseInt(leftNumbers, 10)
  
 
-    }
+  
 }
 
